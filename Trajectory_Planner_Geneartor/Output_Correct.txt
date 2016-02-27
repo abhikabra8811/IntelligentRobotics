@@ -1,0 +1,135 @@
+Enter the number of knot points:
+4
+Enter knot in (X, Y, Phi) format
+0.758 0.173 0
+Enter knot in (X, Y, Phi) format
+0.6 -0.3 45
+Enter knot in (X, Y, Phi) format
+-0.4 0.3 120
+Enter knot in (X, Y, Phi) format
+0.758 0.173 0
+Enter time duration path segment
+3
+Enter time duration path segment
+3
+Enter time duration path segment
+3
+
+X, Y, Phi for point is:
+0.758000
+0.173000
+0.000000
+
+
+ End effector velocity(Xdot, Ydot, Phi-dot) for point is:
+0.000000
+0.000000
+0.000000
+
+
+X, Y, Phi for point is:
+1.545700
+-0.422740
+-17.212410
+
+
+ End effector velocity(Xdot, Ydot, Phi-dot) for point is:
+0.086050
+-1.744740
+-0.406990
+
+
+X, Y, Phi for point is:
+1.118030
+-1.441820
+-24.424830
+
+
+ End effector velocity(Xdot, Ydot, Phi-dot) for point is:
+-1.026180
+-0.596670
+0.349070
+
+
+X, Y, Phi for point is:
+0.600000
+-0.300000
+45.000000
+
+
+ End effector velocity(Xdot, Ydot, Phi-dot) for point is:
+0.705000
+-0.465250
+2.268160
+
+
+X, Y, Phi for point is:
+0.342670
+0.300710
+95.342790
+
+
+ End effector velocity(Xdot, Ydot, Phi-dot) for point is:
+1.095050
+1.812400
+-0.121410
+
+
+X, Y, Phi for point is:
+-0.038490
+0.730930
+75.715000
+
+
+ End effector velocity(Xdot, Ydot, Phi-dot) for point is:
+0.236600
+1.535880
+-0.174280
+
+
+X, Y, Phi for point is:
+-0.400000
+0.300000
+120.000000
+
+
+ End effector velocity(Xdot, Ydot, Phi-dot) for point is:
+-0.831820
+-0.447200
+2.109560
+
+
+X, Y, Phi for point is:
+-0.892850
+0.943890
+142.608520
+
+
+ End effector velocity(Xdot, Ydot, Phi-dot) for point is:
+-1.267120
+-0.174820
+-0.930840
+
+
+X, Y, Phi for point is:
+0.945360
+1.552260
+57.970930
+
+
+ End effector velocity(Xdot, Ydot, Phi-dot) for point is:
+0.788990
+0.604470
+-1.634030
+
+
+X, Y, Phi for point is:
+0.758000
+0.173000
+0.000000
+
+
+ End effector velocity(Xdot, Ydot, Phi-dot) for point is:
+0.000000
+0.000000
+0.000000
