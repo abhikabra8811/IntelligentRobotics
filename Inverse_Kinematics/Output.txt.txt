@@ -1,0 +1,177 @@
+1. Enter the value of X, Y and Phi:
+0 0 -90
+
+ Input vector is X,Y and Phi
+0.000000
+0.000000
+-90.000000
+
+
+ Output of WHATFRAME i.e Gripper location --> matrix format
+0.000000        1.000000        0.000000
+-1.000000       0.000000        0.000000
+0.000000        0.000000        1.000000
+
+ Solution exists for inverse kinematics
+
+ Near soulution for inverse kinematics:
+0.000000
+-180.000000
+90.000290
+
+
+ Far solution for inverse kinematics:
+0.000000
+180.000000
+-270.000290
+
+
+ Output of KIN i.e. forward kinematics:
+0.000000        1.000000        0.000000
+-1.000000       0.000000        0.000000
+0.000000        0.000000        1.000000
+
+ Output of WHERE i.e. joint space representation --> gripper location(x, y, phi)
+
+0.000000
+0.000000
+-90.000000
+
+-----------------------------------------------------------------------------------
+2. Enter the value of X, Y and Phi:
+0.6 -0.3 45
+
+ Input vector is X,Y and Phi
+0.600000
+-0.300000
+45.000000
+
+
+ Output of WHATFRAME i.e Gripper location --> matrix format
+0.707110        -0.707110       0.600000
+0.707110        0.707110        -0.300000
+0.000000        0.000000        1.000000
+
+ Solution exists for inverse kinematics
+
+ Near soulution for inverse kinematics:
+-96.967460
+140.805070
+1.162530
+
+
+ Far solution for inverse kinematics:
+43.837610
+-140.805070
+141.967600
+
+
+ Output of KIN i.e. forward kinematics:
+0.707110        -0.707110       0.600000
+0.707110        0.707110        -0.300000
+0.000000        0.000000        1.000000
+
+ Output of WHERE i.e. joint space representation --> gripper location(x, y, phi)
+
+0.600000
+-0.300000
+45.000000
+
+---------------------------------------------------------------------------------
+
+3. Enter the value of X, Y and Phi:
+-0.4 0.3 120
+
+ Input vector is X,Y and Phi
+-0.400000
+0.300000
+120.000000
+
+
+ Output of WHATFRAME i.e Gripper location --> matrix format
+-0.500000       -0.866030       -0.400000
+0.866030        -0.500000       0.300000
+0.000000        0.000000        1.000000
+
+ Solution exists for inverse kinematics
+
+ Near soulution for inverse kinematics:
+67.607930
+151.044980
+-98.652530
+
+
+ Far solution for inverse kinematics:
+218.652910
+-151.044980
+52.392450
+
+
+ Output of KIN i.e. forward kinematics:
+-0.500000       -0.866030       -0.400000
+0.866030        -0.500000       0.300000
+0.000000        0.000000        1.000000
+
+ Output of WHERE i.e. joint space representation --> gripper location(x, y, phi)
+
+-0.400000
+0.300000
+120.000000
+
+--------------------------------------------------------------------------------
+4. Enter the value of X, Y and Phi:
+0.8 1.4 30
+
+ Input vector is X,Y and Phi
+0.800000
+1.400000
+30.000000
+
+
+ Output of WHATFRAME i.e Gripper location --> matrix format
+0.866030        -0.500000       0.800000
+0.500000        0.866030        1.400000
+0.000000        0.000000        1.000000
+
+ Solution exists for inverse kinematics
+
+ Near soulution for inverse kinematics:
+23.984030
+72.542250
+-66.526190
+
+
+ Far solution for inverse kinematics:
+96.526280
+-72.542250
+6.016060
+
+
+ Output of KIN i.e. forward kinematics:
+0.866030        -0.500000       0.800000
+0.500000        0.866030        1.400000
+0.000000        0.000000        1.000000
+
+ Output of WHERE i.e. joint space representation --> gripper location(x, y, phi)
+
+0.800000
+1.400000
+30.000000
+
+--------------------------------------------------------------------------------
+5. Enter the value of X, Y and Phi:
+2 1 45
+
+ Input vector is X,Y and Phi
+2.000000
+1.000000
+45.000000
+
+
+ Output of WHATFRAME i.e Gripper location --> matrix format
+0.707110        -0.707110       2.000000
+0.707110        0.707110        1.000000
+0.000000        0.000000        1.000000
+
+ No solution exists for inverse kinematics
+
