@@ -20,3 +20,5 @@ HEADERS  += forwardkinematics.h \
     kinematiclink.h
 
 FORMS    += forwardkinematics.ui
+
+CONFIG += c++11

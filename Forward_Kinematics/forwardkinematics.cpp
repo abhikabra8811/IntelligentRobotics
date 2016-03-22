@@ -118,15 +118,16 @@ void ForwardKinematics::calculateManipulatorTranformationMatrix()
 }
 
 //This function validates input values for each link
+//I am a bad function. Fix me.
 bool ForwardKinematics::getAndValidateParametersFromTable(int iJointNumber, double & odAlphaIMinus1, double & odAIMinus1, double & odDI, double & odTheta)
 {
     bool bValid = false;
+    QErrorMessage error;
     do
     {
         odAlphaIMinus1 = (ui->tableWidgetParameters->item(iJointNumber,1)->text()).toDouble(&bValid);
         if(bValid == false)
         {
-            QErrorMessage error;
             error.showMessage("Enter valid value for αi−1 (degree) for link ");
             error.exec();
             break;
@@ -135,7 +136,6 @@ bool ForwardKinematics::getAndValidateParametersFromTable(int iJointNumber, doub
         odAIMinus1 = (ui->tableWidgetParameters->item(iJointNumber,2)->text()).toDouble(&bValid);
         if(bValid == false)
         {
-            QErrorMessage error;
             error.showMessage("Enter valid value for ai−1 (in) for link ");
             error.exec();
             break;
@@ -144,7 +144,6 @@ bool ForwardKinematics::getAndValidateParametersFromTable(int iJointNumber, doub
         odDI = (ui->tableWidgetParameters->item(iJointNumber,3)->text()).toDouble(&bValid);
         if(bValid == false)
         {
-            QErrorMessage error;
             error.showMessage("Enter valid value for di (in) for link ");
             error.exec();
             break;
@@ -153,7 +152,6 @@ bool ForwardKinematics::getAndValidateParametersFromTable(int iJointNumber, doub
         odTheta = (ui->tableWidgetParameters->item(iJointNumber,4)->text()).toDouble(&bValid);
         if(bValid == false)
         {
-            QErrorMessage error;
             error.showMessage("Enter valid value for  θi (degree) for link ");
             error.exec();
             break;
@@ -161,7 +159,6 @@ bool ForwardKinematics::getAndValidateParametersFromTable(int iJointNumber, doub
         if(iJointNumber == 0 && (odTheta > 170.0 || odTheta < -170.0))
         {
                 bValid = false;
-                QErrorMessage error;
                 error.showMessage("Value for  θi (degree) for link 1 should be between -170 to 170");
                 error.exec();
                 break;
@@ -169,7 +166,6 @@ bool ForwardKinematics::getAndValidateParametersFromTable(int iJointNumber, doub
         else if(iJointNumber == 1 && (odTheta > 45.0 || odTheta < -225.0))
         {
             bValid = false;
-            QErrorMessage error;
             error.showMessage("Valid value for  θi (degree) for link 2 should be between -225 to 45");
             error.exec();
             break;
@@ -177,7 +173,6 @@ bool ForwardKinematics::getAndValidateParametersFromTable(int iJointNumber, doub
         else if(iJointNumber == 2 && (odTheta > 75.0 || odTheta < -250.0))
         {
             bValid = false;
-            QErrorMessage error;
             error.showMessage("Valid value for  θi (degree) for link 3 should be between -250 to 75");
             error.exec();
             break;
@@ -185,7 +180,6 @@ bool ForwardKinematics::getAndValidateParametersFromTable(int iJointNumber, doub
         else if(iJointNumber == 3 && (odTheta > 135.0 || odTheta < -135.0))
         {
             bValid = false;
-            QErrorMessage error;
             error.showMessage("Valid value for  θi (degree) for link 4 should be between -135 to 135");
             error.exec();
             break;
@@ -193,7 +187,6 @@ bool ForwardKinematics::getAndValidateParametersFromTable(int iJointNumber, doub
         else if(iJointNumber == 4 && (odTheta > 100.0 || odTheta < -100.0))
         {
             bValid = false;
-            QErrorMessage error;
             error.showMessage("Valid value for  θi (degree) for link 5 should be between -100 to 100");
             error.exec();
             break;
@@ -201,7 +194,6 @@ bool ForwardKinematics::getAndValidateParametersFromTable(int iJointNumber, doub
         else if(iJointNumber == 5 && (odTheta > 180.0 || odTheta < -180.0))
         {
             bValid = false;
-            QErrorMessage error;
             error.showMessage("aVlid value for  θi (degree) for link 6 should be between -180 to 180");
             error.exec();
             break;
